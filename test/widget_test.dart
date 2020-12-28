@@ -14,7 +14,7 @@ import 'package:new_chat_app_complete/screens/welcome_screen.dart';
 void main() {
   testWidgets('Counter increments smoke test', (WidgetTester tester) async {
     // Build our app and trigger a frame.
-    await tester.pumpWidget(WelcomeScreen());
+    await tester.pumpWidget(FlashChat());
 
     // Verify that our counter starts at 0.
     expect(find.text('0'), findsOneWidget);
